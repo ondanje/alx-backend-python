@@ -10,7 +10,7 @@ def sum_list(input_list: list[float]) -> float:
     looping over the list using a for loop and the adding the sum
     of the items of the list
     """
-    sum = 0
+    sum: float = 0
     for x in range(len(input_list)):
         """print(input_list[x])"""
 
