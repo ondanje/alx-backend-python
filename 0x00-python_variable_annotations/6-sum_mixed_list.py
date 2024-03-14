@@ -14,7 +14,6 @@ def sum_mixed_list(mxd_list: Union[int | float]) -> float:
     sum = 0
 
     for x in range(len(mxd_list)):
-        """print(mxd_list[x])"""
 
         sum += mxd_list[x]
 
